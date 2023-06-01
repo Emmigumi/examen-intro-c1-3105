@@ -1,0 +1,20 @@
+  442  rm *
+  443  ls
+  444  touch command.txt
+  445  ls
+  446  cd ..
+  447  git init
+  448  git remote -v
+  449  git branch -M main
+  450  git remote add origin https://github.com/Emmigumi/examen-intro-c1-3105.git
+  451  git remote -v
+  452  git commit -m "Commit 1 de Jammie Hurtado"
+  453  git add .
+  454  git commit -m "Commit 1 de Jammie Hurtado"
+  455  git log --oneline
+  456  git push origin main
+  457  git branch hotfix
+  458  git checkout hotfix
+  459  git branch
+  460  history 20
+  461  history 20 > comandos\ utilizados/command.txt
